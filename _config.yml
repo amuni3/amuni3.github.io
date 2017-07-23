@@ -1,3 +1,29 @@
-lang: "en"
-name: Aneri Muni, Personal Website
+# Site settings
+title: Aneri Muni
+email: aneri2794@gmail.com
+description: > # First draft of my online portfolio.
+baseurl:  # the subpath of your site, e.g. /blog/
+url:  # the base hostname & protocol for your site
+#twitter_username: twitter_username
+github_username:  amuni3
+
+# Build settings
 markdown: kramdown
+
+highlighter: rouge
+
+# Pagination
+# paginate: 15
+# paginate_path: "/blog/page:num/"
+
+
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+  #blog:
+  #  output: true
+  #  permalink: /blog/:path/
+  #paintings:
+  #  output: true
+  #  permalink: /paintings/:path/

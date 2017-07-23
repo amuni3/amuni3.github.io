@@ -1,2 +1,1 @@
-# amuni3.github.io
-Personal Website
+Simple online portfolio to showcase my projects and art work.
