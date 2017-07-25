@@ -30,7 +30,7 @@ mechanical parts of the Nano blimp.
 For this work, I was awarded the <a href="http://www.undergradresearch.gatech.edu/content/presidents-undergraduate-research-awards" target="blank">
 President's Undergraduate Research Award</a> in Summer 2015 and Spring 2016.
 
-<b>Publication:</b> \\
+<b>Publication:</b>\\
 [1]  &nbsp; S. Cho, V. Mishra, Q. Tao, P. Varnell, M. King-Smith, A. Muni, W. Smallwood, F. Zhang.
 Autopilot Design for a Class of Miniature Autonomous Blimps. <b><i>Conference on Control
 Technology and Applications</i></b>, in press.
