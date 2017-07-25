@@ -5,7 +5,7 @@ description: Food Processing Technology Division, GTRI
 img: /project_pics/chicken_scan.png
 ---
 
-For my undergradute thesis, I am currently working on weight estimation problem in poultry houses,
+For my undergraduate thesis, I am currently working on weight estimation problem in poultry houses,
 with Colin Usher in <a href="http://www.fptd.gatech.edu/robotics/grobot.html" target="blank"> FPTD</a>
 at Georgia Tech Research Institute.
 
@@ -21,8 +21,7 @@ PCL (Point Cloud Library) and sphere fitting in MATLAB, were employed to prove t
 	ICP and maximum size sphere fitting to correlate volume and weight.
 </div>
 
-
 The problem with using 3D reconstruction softwares like
-<a href="https://msdn.microsoft.com/en-us/library/dn188670.aspx" target="blank"> KinectFusion </a>
-is that they are designed for static scenes. This makes it harder to model chickens. I am working on an
-algorithm that can undo this motion to robustly generate 360 degree view models.
+<a href="https://msdn.microsoft.com/en-us/library/dn188670.aspx" target="blank"> KinectFusion</a>,
+is that they are designed for modelling static scenes. This makes it harder to model chickens. I am working on an
+algorithm that would undo this motion to robustly generate 360 degree view models.

@@ -5,11 +5,11 @@ description: IVALab
 img: /project_pics/quadruped.PNG
 ---
 
-This semester long project was part of Dr. Patrio Vela's "Intro. to Automation and Controls" class.
+This semester long project was part of Dr. Patricio Vela's "Intro. to Automation and Controls" class.
 Along with another teammate, I used forward and inverse kinematics to emulate the walking gait of quadrupeds
 found in nature, like cheetah. This was written in MATLAB.
 
-Another walking gait was generated using an open source nonlinear optimizaion solver,Optragen. We then
+Another walking gait was generated using an open source nonlinear optimization solver,Optragen. We then
 deployed it on a physical model. See <a href="https://www.youtube.com/watch?v=9Xl9mlDTPZg" target="blank"> video </a> here.
 
 <div class="img_row">
