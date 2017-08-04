@@ -11,7 +11,7 @@ Dr. Fumin Zhang in <a href="http://gtsr.gatech.edu/" target="blank"> GTSR</a> la
 I was in charge of system identification and controller design to control the altitude of the blimp.
 I figured out a simple linear model for the blimp and then collected large amount of data to identify
 the parameters of the model and then generate PID gains for the blimp controllers. This was done using
-the System Identification Toolbox in MATLAB/Simulink. This work helped us win the third position in
+the System Identification Toolbox in MATLAB/Simulink. This work helped us win the third position at
 IEEE Control System Society's <a href="https://www.youtube.com/watch?v=5M-V4GOFNDA" target="blank">video </a>
 submission contest.
 

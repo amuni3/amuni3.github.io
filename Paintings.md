@@ -1,16 +1,15 @@
 ---
 layout: post
-title: paintings
-permalink: /paintings/
+title: Paintings
+permalink: /Paintings/
 order: 2
 ---
 
 <img class="col half right" src="/img/paint.jpg">
 
-<br/>
 I have been painting since I was five. My work falls under the <a href="https://en.wikipedia.org/wiki/Na%C3%AFve_art" target="blank">"Naïve art"</a> category and draws inspiration from Indian culture and traditions. I have worked in several mediums including poster colors, water colors, oil paints and even ink and organic colors.
 
-Over the years I have won many national and international awards and scholarships. From 2004 to 2008, I was a recipient of the Cultural Talent Search Scholarship Scheme (CTSSS) implemented by the Center for Cultural Resources and Training (CCRT), India. I was invited by the government of Portugal to attend the 1<sup>st</sup> International Juvenile Art Workshop in Penela, Portugal.
+Over the years I have won many national and international awards and scholarships. From 2004 to 2008, I was a recipient of the Cultural Talent Search Scholarship Scheme (CTSSS) implemented by the Center for Cultural Resources and Training (CCRT), India. I was invited by the Government of Portugal to attend the 1<sup>st</sup> International Juvenile Art Workshop in Penela, Portugal.
 
 Below are some of my selected paintings.
 <br/>
@@ -148,7 +147,7 @@ IE-NO- HIKARI Association, Japan, 2005.<br/>  </i>
 <hr/>
 
 <div class="header-bar">
-  <h3>Graba</h3>
+  <h3>Garba</h3>
 </div>
 <div class="img_painting">
 	<img class="col three" src="/painting_gallery/navratri2.jpg" atl="garba">
@@ -181,7 +180,7 @@ IE-NO- HIKARI Association, Japan, 2005.<br/>  </i>
 </div>
 <div class="col three caption">                          
 	<i>Every evening people gather on the banks of river Ganga to perform the ritual of puja and aarti.
-  This painting was created using <b>wash technique</b><br/></i>
+  This painting was created using <b>wash technique.</b><br/></i>
 </div>
 
 <br/>

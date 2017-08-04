@@ -11,7 +11,7 @@ at Georgia Tech Research Institute.
 
 The initial stage involved collecting 3D scans of various birds to find a correlation
 between a bird's weight and volume. Methods such as ICP (Iterative Closest Point) from
-PCL (Point Cloud Library) and sphere fitting in MATLAB, were employed to prove this theory.
+PCL (Point Cloud Library) and sphere fitting in MATLAB were employed to prove this theory.
 
 <div class="img_row">
 	<img class="col two" src="{{ site.baseurl }}/project_pics/icp.png" alt="" title="ICP matching"/>

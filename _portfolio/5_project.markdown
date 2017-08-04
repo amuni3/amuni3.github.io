@@ -5,7 +5,7 @@ description: Introduction to ECE
 img: /project_pics/lego.jpg
 ---
 
-This semester long project was part of Dr. David Anderson's "Intro. to Electrical
+This semester long project was part of Dr. David Anderson's "Introduction to Electrical
 and Computer Engineering" class. Along with two other teammates, I programmed a
 Mindstorms NXT robot to traverse a race course while picking up certain colored balls.
 

@@ -26,6 +26,6 @@ in order to move it out of the way. A "Drive around" routine was written to reca
 path in case the bird doesn't move, or if a static obstacle is encountered. Weekly tests were
 conducted in a grow-out house with broiler-breeder chickens.
 
-<a href="http://elibrary.asabe.org/abstract.asp?aid=48032&t=2&redir=&redirType=" target="blank">Publication</a>:\\
+<a href="http://elibrary.asabe.org/abstract.asp?aid=48032&t=2&redir=&redirType=" target="blank"><b>Publication</b></a>:\\
 [1]  &nbsp; C. T Usher, W. D Daley, B. P Joffe and A. Muni. Robotics for Poultry House
 Management. <b><i>ASABE Annual International Meeting</i></b>, 2017.
