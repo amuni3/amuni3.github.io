@@ -43,7 +43,6 @@ order: 1
         </a>
     </div>
 </div>
-
 {% endif %}
 
 {% endfor %}
