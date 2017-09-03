@@ -1,25 +1,30 @@
 ---
 layout: page
-title: Quadruped
-description: IVALab
-img: /project_pics/quadruped.PNG
+title: ABB YuMi robot
+description: Autonomous Systems Lab, ETH Zurich
+img: /project_pics/yumi.jpg
 ---
 
-This semester long project was part of Dr. Patricio Vela's "Introduction to Automation and Controls" class.
-Along with another teammate, I used forward and inverse kinematics to emulate the walking gait of quadrupeds
-found in nature, like cheetah. This was written in MATLAB.
+I was awarded the <a href="http://thinkswiss.tumblr.com/awardees" target="blank"> ThinkSwiss Research Scholarship </a>
+by the Swiss Embassy to get a research experience at the Autonomous Systems Lab, ETH Zurich with Dr. Roland Siegwart.
 
-Another walking gait was generated using an open source nonlinear optimization solver, Optragen. We then
-deployed it on a physical model. See <a href="https://www.youtube.com/watch?v=9Xl9mlDTPZg" target="blank"> video </a> here.
+As a visiting student researcher at Autonomous Systems lab, I was assigned the task of developing a stacking
+demo with ABB's Yumi robot. The robot should be able to recognize a stacking pattern formed using blocks and
+then stack objects to build a similar structure.
 
 <div class="img_row">
-	<img class="col one" src="{{ site.baseurl }}/project_pics/cat_front.png" alt="" title="Front view"/>
-	<img class="col two" src="{{ site.baseurl }}/project_pics/torso.jpg" alt="" title="3D CAD model"/>
+	<img class="col one" src="{{ site.baseurl }}/project_pics/yumi_rviz.png" alt="" title="ABB YuMi"/>
+	<img class="col one" src="{{ site.baseurl }}/project_pics/yumi_gazebo.jpeg" alt="" title="ABB YuMi"/>
+	<img class="col one" src="{{ site.baseurl }}/project_pics/yumi_objects.jpeg" alt="" title="Object segmentation"/>
 </div>
 <div class="col three caption">
-	Front view of robotic quadruped and CAD model of torso with spine joint.
+	YuMi pick-place simulation in Gazebo and Rviz; Object segmentation output.
 </div>
 
-Several robots were studied to design the next version of a quadruped with an actuated backbone/spine,
-using AutoDesk Inventor. The torso can now move the body sideways to facilitate turning and the spine
-can bend the body for hopping and leaping gaits.  
+The goal of this project is to scan a prebuild object stack and then rebuild it with the YuMi robot. The overall design is
+divided into two parts. First, a pick-place pipeline to move the robot arms. This was done using MoveIt! library
+for planning, manipulation and grasping. The second part includes an object detection pipeline to identify location
+of blocks required to build the stack. The PointCloud library was used to interpret data from ASUS PrimeSense sensor.
+
+Here is a <a href="https://www.youtube.com/watch?v=iCcs-SbOtG4" target="blank"> video </a>
+showing a single pick-place routine in Rviz and Gazebo.

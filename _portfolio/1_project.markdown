@@ -1,8 +1,8 @@
 ---
 layout: page
 title: GT-MAB
-description: Georgia Tech Systems Research Lab
-img: /project_pics/blimp2.jpg
+description: Georgia Tech Systems Research Lab, Georgia Tech
+img: /project_pics/Two_Blimps.jpg
 ---
 
 I worked on the design and control of Georgia Tech Miniature Autonomous Blimp (GT-MAB) with

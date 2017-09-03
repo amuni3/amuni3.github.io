@@ -1,27 +1,25 @@
 ---
 layout: page
-title: Predictive modelling
-description: Food Processing Technology Division, GTRI
-img: /project_pics/chicken_scan.png
+title: Quadruped
+description: IVALab, Georgia Tech
+img: /project_pics/quadruped.PNG
 ---
 
-For my undergraduate thesis, I am currently working on weight estimation problem in poultry houses,
-with Colin Usher in <a href="http://www.fptd.gatech.edu/robotics/grobot.html" target="blank"> FPTD</a>
-at Georgia Tech Research Institute.
+This semester long project was part of Dr. Patricio Vela's "Introduction to Automation and Controls" class.
+Along with another teammate, I used forward and inverse kinematics to emulate the walking gait of quadrupeds
+found in nature, like cheetah. This was written in MATLAB.
 
-The initial stage involved collecting 3D scans of various birds to find a correlation
-between a bird's weight and volume. Methods such as ICP (Iterative Closest Point) from
-PCL (Point Cloud Library) and sphere fitting in MATLAB were employed to prove this theory.
+Another walking gait was generated using an open source nonlinear optimization solver, Optragen. We then
+deployed it on a physical model. See <a href="https://www.youtube.com/watch?v=9Xl9mlDTPZg" target="blank"> video </a> here.
 
 <div class="img_row">
-	<img class="col two" src="{{ site.baseurl }}/project_pics/icp.png" alt="" title="ICP matching"/>
-	<img class="col one" src="{{ site.baseurl }}/project_pics/sphere_fit.png" alt="" title="Sphere fitting"/>
+	<img class="col one" src="{{ site.baseurl }}/project_pics/cat_front.png" alt="" title="Front view"/>
+	<img class="col two" src="{{ site.baseurl }}/project_pics/torso.jpg" alt="" title="3D CAD model"/>
 </div>
 <div class="col three caption">
-	ICP and maximum size sphere fitting to correlate volume and weight.
+	Front view of robotic quadruped and CAD model of torso with spine joint.
 </div>
 
-The problem with using 3D reconstruction softwares like
-<a href="https://msdn.microsoft.com/en-us/library/dn188670.aspx" target="blank"> KinectFusion</a>,
-is that they are designed for modelling static scenes. This makes it harder to model chickens. I am working on an
-algorithm that would undo this motion to robustly generate 360 degree view models.
+Several robots were studied to design the next version of a quadruped with an actuated backbone/spine,
+using AutoDesk Inventor. The torso can now move the body sideways to facilitate turning and the spine
+can bend the body for hopping and leaping gaits.  
