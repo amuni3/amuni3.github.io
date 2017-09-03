@@ -5,12 +5,12 @@ description: Autonomous Systems Lab, ETH Zurich
 img: /project_pics/yumi.jpg
 ---
 
-I was awarded the <a href="http://thinkswiss.tumblr.com/awardees" target="blank"> ThinkSwiss Research Scholarship </a>
-by the Swiss Embassy to get a research experience at the Autonomous Systems Lab, ETH Zurich with Dr. Roland Siegwart.
-
 As a visiting student researcher at Autonomous Systems lab, I was assigned the task of developing a stacking
 demo with ABB's Yumi robot. The robot should be able to recognize a stacking pattern formed using blocks and
 then stack objects to build a similar structure.
+
+I was awarded the <a href="http://thinkswiss.tumblr.com/awardees" target="blank"> ThinkSwiss Research Scholarship </a>
+by the Swiss Embassy to conduct this research at ETH Zurich with Dr. Roland Siegwart.
 
 <div class="img_row">
 	<img class="col one" src="{{ site.baseurl }}/project_pics/yumi_rviz.png" alt="" title="ABB YuMi"/>
