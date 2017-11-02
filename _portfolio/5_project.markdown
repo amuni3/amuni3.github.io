@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Predictive modelling
+title: Predictive Modeling
 description: Food Processing Technology Division, GTRI
 img: /project_pics/chicken_scan.png
 ---
@@ -23,5 +23,5 @@ PCL (Point Cloud Library) and sphere fitting in MATLAB were employed to prove th
 
 The problem with using 3D reconstruction softwares like
 <a href="https://msdn.microsoft.com/en-us/library/dn188670.aspx" target="blank"> KinectFusion</a>,
-is that they are designed for modelling static scenes. This makes it harder to model chickens. I am working on an
+is that they are designed for modeling static scenes. This makes it harder to model chickens. I am working on an
 algorithm that would undo this motion to robustly generate 360 degree view models.

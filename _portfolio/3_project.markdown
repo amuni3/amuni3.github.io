@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ABB YuMi robot
+title: ABB YuMi Robot
 description: Autonomous Systems Lab, ETH Zurich
 img: /project_pics/yumi.jpg
 ---
