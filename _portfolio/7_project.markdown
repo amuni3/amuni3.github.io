@@ -1,32 +1,26 @@
 ---
 layout: page
-title: DIY Robotics
-description: Georgia Tech
-img: /project_pics/lego1.jpg
+title: Gripper Design
+description: Hack-A-Thing Gripper Design Competition
+img: /project_pics/gripper.JPG
 ---
 
-My Fascination with robotics started with a semester long project in Dr. David Anderson's
-"Introduction to Electrical and Computer Engineering" class. Along with two other teammates, I programmed a
-Mindstorms NXT robot to traverse a race course while picking up certain colored balls. Here is a
-<a href="https://www.youtube.com/watch?v=9VjdRYz2Wlcvideo" target="blank"> video </a>
-from the edge detection test.
-
-Recently in Dr. Hamblen's "Embedded Systems Design" class, I used Mbed microcontroller to perform basic movements,
-forward, reverse, clockwise and anti-clockwise turns on a two wheeled toy robot. Here is a
-<a href="https://www.youtube.com/watch?v=Zh1uhro9YKU" target="blank"> video </a> of the trial.
+I participated in Hack-A-Thing, a BMW sponsored competition to design a gripper with sensors to accurately pick up
+and move objects to proper locations. The gripper was attached onto the end of a UR5 robot. I worked on the electronics
+parts including servo motors, pressure sensors and air pump controlled with Mbed, while my teammate worked on the gripper model.
 
 <div class="img_row">
-	<img class="col half" src="{{ site.baseurl }}/project_pics/shadow_robo.JPG" alt="" title="Shadow chassis robot"/>
-	<img class="col half" src="{{ site.baseurl }}/project_pics/lego_robo.jpg" alt="" title="NXT robot"/>
+	<img class="col half" src="{{ site.baseurl }}/project_pics/gripper_model2.png" alt="" title="CAD model"/>
+	<img class="col half" src="{{ site.baseurl }}/project_pics/gripper_electronics.JPG" alt="" title="Gripper electronics"/>
 </div>
 <div class="col three caption">
-	Shadow Chassis robot and Mindstorms NXT robot.
+	CAD model of gripper and all the electronics.
 </div>
 
-Robotics kits are a quick and inexpensive way of learning basic functionality of various sensors, actuators and designing
-simple algorithms to understand robotics. I want further study the benefits of such toolkits as learning platforms and create
-personal robots that integrate seamlessly into homes and classrooms.
+Universal Grippers have compliant end-effectors which use soft surfaces and suction to grasp objects with odd geometries.
+We proposed an improved design, the <b>“Universal-Hybrid”</b> gripper; it has three independent fingers with compliant material
+on the ends of the fingers and in the palm of the hand. This hybrid design allows for an object to be touched by multiple points,
+and the dexterous fingers and large palm will ensure that as much surface area is contacting the object as possible.
 
-<!---This project gave me an appreciation of the difficulty involved in implementing tasks that
-are easily carried out my humans, on robotic platforms. I liked this challenge and it motivated me to
-further pursue research in automation and controls nxt.png-->
+Here is a <a href="https://www.youtube.com/watch?v=toi5235ANn4" target="blank"> video </a>
+showing the working gripper.

@@ -25,3 +25,6 @@ The problem with using 3D reconstruction softwares like
 <a href="https://msdn.microsoft.com/en-us/library/dn188670.aspx" target="blank"> KinectFusion</a>,
 is that they are designed for modeling static scenes. This makes it harder to model chickens. I am working on an
 algorithm that would undo this motion to robustly generate 360 degree view models.
+
+I have been awarded the <a href="http://www.undergradresearch.gatech.edu/content/presidents-undergraduate-research-awards" target="blank">
+President's Undergraduate Research Award</a> for Spring 2018 to continue this work.

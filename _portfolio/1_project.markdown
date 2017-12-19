@@ -30,7 +30,11 @@ mechanical parts of the Nano blimp.
 For this work, I was awarded the <a href="http://www.undergradresearch.gatech.edu/content/presidents-undergraduate-research-awards" target="blank">
 President's Undergraduate Research Award</a> in Summer 2015 and Spring 2016.
 
-<b>Publication:</b>\\
+
+<a href="http://ieeexplore.ieee.org/document/8062564/?reload=true" target="blank"><b>Publications</b></a>:\\
 [1]  &nbsp; S. Cho, V. Mishra, Q. Tao, P. Varnell, M. King-Smith, A. Muni, W. Smallwood, F. Zhang.
 Autopilot Design for a Class of Miniature Autonomous Blimps. <b><i>Conference on Control
-Technology and Applications</i></b>, in press.
+Technology and Applications</i></b>, 2017.
+
+[2] &nbsp; Q. Tao, M. King-Smith, A.D. Muni, V. Mishra, S. Cho, J.P. Varnell, F. Zhang, Control Theory – Autonomous Blimp. 2015
+[Online]. Available: <a href="https://www.youtube.com/watch?v=5M-V4GOFNDA" target="blank">https://youtu.be/5M-V4GOFNDA</a>.
