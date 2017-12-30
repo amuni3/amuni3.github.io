@@ -16,7 +16,6 @@ highlighter: rouge
 # paginate: 15
 # paginate_path: "/blog/page:num/"
 
-
 collections:
   portfolio:
     output: true
@@ -27,3 +26,6 @@ collections:
   #paintings:
   #  output: true
   #  permalink: /paintings/:path/
+
+# Google Analytics
+google_analytics: UA—111736740-1
