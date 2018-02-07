@@ -1,28 +1,30 @@
 ---
 layout: page
-title: Mini Braille Telegraph
-description: ECE 4180 Final Project, Georgia Tech
-img: /project_pics/printer.JPG
+title: Predictive Modeling
+description: Food Processing Technology Division, GTRI
+img: /project_pics/chicken_scan.png
 ---
 
-The Bluetooth controlled Mini Braille Telegraph was designed as a final project submission for
-ECE 4180 Embedded Systems Design course with Dr. Hamblen. Along with 3 teammates, I designed a printer that receives
-characters/strings in English and prints out the corresponding Braille characters on a Braille tape.
+For my undergraduate thesis, I am currently working on weight estimation problem in poultry houses,
+with Colin Usher in <a href="http://www.fptd.gatech.edu/robotics/grobot.html" target="blank"> FPTD</a>
+at Georgia Tech Research Institute.
 
-The Adafruit BLE Bluetooth app is used to send characters that are displayed on the uLCD and read out loud through a speaker
-using an EMIC2 text-to-audio chip. A linear actuator is used to position the stylus that is used to create the
-embossed dots for Braille characters. Once the stylus is correctly oriented, a solenoid is used to push the Braille tape up
-so as to create an indentation. Finally, a stepper motor is used to unwind the tape to facilitate the printing of the next
-character.
+The initial stage involved collecting 3D scans of various birds to find a correlation
+between a bird's weight and volume. Methods such as ICP (Iterative Closest Point) from
+PCL (Point Cloud Library) and sphere fitting in MATLAB were employed to prove this theory.
 
 <div class="img_row">
-	<img class="col half" src="{{ site.baseurl }}/project_pics/printer_main.JPG" alt="" title="Mini-Braille Printer"/>
-	<img class="col half" src="{{ site.baseurl }}/project_pics/printer_elec.JPG" alt="" title="Printer Electronics"/>
+	<img class="col two" src="{{ site.baseurl }}/project_pics/icp.png" alt="" title="ICP matching"/>
+	<img class="col one" src="{{ site.baseurl }}/project_pics/sphere_fit.png" alt="" title="Sphere fitting"/>
 </div>
 <div class="col three caption">
-	Mini-Braille Printer and all the internal electronics.
+	ICP and maximum size sphere fitting to correlate volume and weight.
 </div>
 
-Here is a <a href="https://www.youtube.com/watch?v=2WF3GfKMxMs" target="blank"> video </a>
-showing the working printer. This <a href="https://os.mbed.com/users/XBraves/notebook/mini-braille-telegraph/" target="blank"> tutorial</a>
-provides a detailed description of the project.
+The problem with using 3D reconstruction softwares like
+<a href="https://msdn.microsoft.com/en-us/library/dn188670.aspx" target="blank"> KinectFusion</a>,
+is that they are designed for modeling static scenes. This makes it harder to model chickens. I am working on an
+algorithm that would undo this motion to robustly generate 360 degree view models.
+
+I have been awarded the <a href="http://www.undergradresearch.gatech.edu/content/presidents-undergraduate-research-awards" target="blank">
+President's Undergraduate Research Award</a> for Spring 2018 to continue this work.

@@ -1,30 +1,27 @@
 ---
 layout: page
-title: Predictive Modeling
-description: Food Processing Technology Division, GTRI
-img: /project_pics/chicken_scan.png
+title: BlindEyes
+description: MakeHarvard Hackathon Project
+img: /project_pics/blindEyes.JPG
 ---
 
-For my undergraduate thesis, I am currently working on weight estimation problem in poultry houses,
-with Colin Usher in <a href="http://www.fptd.gatech.edu/robotics/grobot.html" target="blank"> FPTD</a>
-at Georgia Tech Research Institute.
+I participated in MakeHarvard, Harvard University's first ever Makeathon! Along with three other teammates, I developed a navigational
+tool, BlindEyes, for the visually impaired. The tool provides haptic feedback to avoid obstacles, along with an audio output describing
+the scene around the user. The entire project was completed within 24 hours.
 
-The initial stage involved collecting 3D scans of various birds to find a correlation
-between a bird's weight and volume. Methods such as ICP (Iterative Closest Point) from
-PCL (Point Cloud Library) and sphere fitting in MATLAB were employed to prove this theory.
+Our team was awarded the <b><b><i>Best Overall Prize</i></b></b>, among 37 teams, for our innovative design. More information and video of our system working can be found on <a href="https://devpost.com/software/blindeyes" target="blank"> Devpost </a>.
 
 <div class="img_row">
-	<img class="col two" src="{{ site.baseurl }}/project_pics/icp.png" alt="" title="ICP matching"/>
-	<img class="col one" src="{{ site.baseurl }}/project_pics/sphere_fit.png" alt="" title="Sphere fitting"/>
+	<img class="col half" src="{{ site.baseurl }}/project_pics/blindEyes-head.JPG" alt="" title="Head piece design"/>
+	<img class="col half" src="{{ site.baseurl }}/project_pics/blindEyes-back.JPG" alt="" title="Electronics for Head piece"/>
 </div>
 <div class="col three caption">
-	ICP and maximum size sphere fitting to correlate volume and weight.
+	BlindEyes - navigational tool for visually impaired.
 </div>
 
-The problem with using 3D reconstruction softwares like
-<a href="https://msdn.microsoft.com/en-us/library/dn188670.aspx" target="blank"> KinectFusion</a>,
-is that they are designed for modeling static scenes. This makes it harder to model chickens. I am working on an
-algorithm that would undo this motion to robustly generate 360 degree view models.
+The device consists of a head piece with integrated sonars, lidars, haptic feedback motors, EMIC2 (for text-to-audio) and
+a Raspberry pi camera for landscape identification and obstacle avoidance. The sensors are controlled using an mbed whereas
+the imaging and audio feedback are controlled through a Raspberry Pi 3.
 
-I have been awarded the <a href="http://www.undergradresearch.gatech.edu/content/presidents-undergraduate-research-awards" target="blank">
-President's Undergraduate Research Award</a> for Spring 2018 to continue this work.
+Furthermore, a secondary device, an anklet with integrated lidars, is provided to detect smaller obstacles. This is operated
+via an Arduino Uno. The two devices operate independently of each other, making the system modular and highly scalable.
