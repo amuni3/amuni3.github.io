@@ -1,28 +1,30 @@
 ---
 layout: page
-title: Mini Braille Telegraph
-description: ECE 4180 Final Project, Georgia Tech
-img: /project_pics/printer.JPG
+title: ABB YuMi Robot
+description: Autonomous Systems Lab, ETH Zurich
+img: /project_pics/yumi.jpg
 ---
 
-The Bluetooth controlled Mini Braille Telegraph was designed as a final project submission for
-ECE 4180 Embedded Systems Design course with Dr. Hamblen. Along with 3 teammates, I designed a printer that receives
-characters/strings in English and prints out the corresponding Braille characters on a Braille tape.
+As a visiting student researcher at Autonomous Systems lab, I was assigned the task of developing a stacking
+demo with ABB's Yumi robot. The robot should be able to recognize a stacking pattern formed using blocks and
+then stack objects to build a similar structure.
 
-The Adafruit BLE Bluetooth app is used to send characters that are displayed on the uLCD and read out loud through a speaker
-using an EMIC2 text-to-audio chip. A linear actuator is used to position the stylus that is used to create the
-embossed dots for Braille characters. Once the stylus is correctly oriented, a solenoid is used to push the Braille tape up
-so as to create an indentation. Finally, a stepper motor is used to unwind the tape to facilitate the printing of the next
-character.
+I was awarded the <a href="http://thinkswiss.tumblr.com/awardees" target="blank"> ThinkSwiss Research Scholarship </a>
+by the Swiss Embassy to conduct this research at ETH Zurich with Dr. Roland Siegwart.
 
 <div class="img_row">
-	<img class="col half" src="{{ site.baseurl }}/project_pics/printer_main.JPG" alt="" title="Mini-Braille Printer"/>
-	<img class="col half" src="{{ site.baseurl }}/project_pics/printer_elec.JPG" alt="" title="Printer Electronics"/>
+	<img class="col one" src="{{ site.baseurl }}/project_pics/yumi_rviz.png" alt="" title="ABB YuMi"/>
+	<img class="col one" src="{{ site.baseurl }}/project_pics/yumi_gazebo.jpeg" alt="" title="ABB YuMi"/>
+	<img class="col one" src="{{ site.baseurl }}/project_pics/yumi_objects.jpeg" alt="" title="Object segmentation"/>
 </div>
 <div class="col three caption">
-	Mini-Braille Printer and all the internal electronics.
+	YuMi pick-place simulation in Gazebo and Rviz; Object segmentation output.
 </div>
 
-Here is a <a href="https://www.youtube.com/watch?v=2WF3GfKMxMs" target="blank"> video </a>
-showing the working printer. This <a href="https://os.mbed.com/users/XBraves/notebook/mini-braille-telegraph/" target="blank"> tutorial</a>
-provides a detailed description of the project.
+The goal of this project is to scan a prebuild object stack and then rebuild it with the YuMi robot. The overall design is
+divided into two parts. First, a pick-place pipeline to move the robot arms. This was done using MoveIt! library
+for planning, manipulation and grasping. The second part includes an object detection pipeline to identify location
+of blocks required to build the stack. The PointCloud library was used to interpret data from ASUS PrimeSense sensor.
+
+Here is a <a href="https://www.youtube.com/watch?v=iCcs-SbOtG4" target="blank"> video </a>
+showing a single pick-place routine in Rviz and Gazebo.

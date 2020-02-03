@@ -20,6 +20,9 @@ collections:
   portfolio:
     output: true
     permalink: /Portfolio/:path/
+  gradprojects:
+    output: true
+    permalink: /Portfolio/:path/
   #blog:
   #  output: true
   #  permalink: /blog/:path/

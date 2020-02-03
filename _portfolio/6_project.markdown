@@ -5,7 +5,7 @@ description: Food Processing Technology Division, GTRI
 img: /project_pics/chicken_scan.png
 ---
 
-For my undergraduate thesis, I am currently working on weight estimation problem in poultry houses,
+For my undergraduate thesis, I worked on weight estimation problem in poultry houses,
 with Colin Usher in <a href="http://www.fptd.gatech.edu/robotics/grobot.html" target="blank"> FPTD</a>
 at Georgia Tech Research Institute.
 
@@ -27,4 +27,6 @@ is that they are designed for modeling static scenes. This makes it harder to mo
 algorithm that would undo this motion to robustly generate 360 degree view models.
 
 I have been awarded the <a href="http://www.undergradresearch.gatech.edu/content/presidents-undergraduate-research-awards" target="blank">
-President's Undergraduate Research Award</a> for Spring 2018 to continue this work.
+President's Undergraduate Research Award</a> for Spring 2018 to continue this work. Moreover, I presented my work at the 13th Annual Undergraduate Research <a href="https://oue.gatech.edu/2018-undergraduate-research-symposium" target="blank">Symposium</a> at Georgia Tech and
+was awarded the <a href="http://urop.gatech.edu/sites/default/files/images/spring_symposium_awards_0.pdf" target="blank">3rd Best Oral Presentation</a> under
+the College of Engineering.
