@@ -1,28 +1,17 @@
 ---
 layout: page
-title: Planning Under Uncertainty
-description: Autonomous Mobility on Demand, ETHZ
-img: /project_pics/duckiebot-side.jpg
+title: Safe Policy Search in Higher Dimensions
+description: Learning and Adaptive Systems Group, ETHZ
+img: /project_pics/quad_traj_blue.png
 ---
 
-This project is part of the Autonomous Mobility on Demand course, commonly referred as "Duckietown" under the supervision of Dr. Andrea Censi with
-the Institute for Dynamic Systems and Control at ETH. Along with three teammates, I worked on developing an algorithm that keeps track of
-the uncertainty while driving in an unknown environment.
+For my masters thesis, I collaborated with Prof. Dr. Andreas Krause in the <a href="https://las.inf.ethz.ch/" target="blank">Learning and Adaptive Systems Group</a> at ETHZ.
 
-The goal of the project is to anticipate any future unseen obstacles and adjust velocity profile of the duckiebots accordingly. Each track in given
-environment is divided into segments and nodes (see left image) and the uncertainty at each node is updated according to the observations from a RaspberryPi camera.
+Parameters for robotics algorithms need to be tuned in order to maximize performance on the real system. Bayesian Optimization (BO) has been used to automate this process. However, in case of safety-critical systems, evaluation of unsafe parameters during the optimization process should be avoided. Recently, a safe BO algorithm, <a href="https://arxiv.org/pdf/1509.01066.pdf" target="blank">S<font size="2">AFE</font>O<font size="2">PT</font></a>, was proposed; it employs Gaussian Processes to only evaluate parameters that satisfy safety constraints with high probability.
 
-<div class="img_row_special">
-	<img class="col half" src="{{ site.baseurl }}/project_pics/duckie-node.png" alt="" title="Duckietown track node view"/>
-	<img class="col half" src="{{ site.baseurl }}/project_pics/duckie-track.png" alt="" title="Duckietown track"/>
-</div>
-<div class="col three caption">
-	Duckietown track in the node view showing multiple duckiebots navigating simultaneously.
-</div>
+Even so, it is known that BO does not scale to higher dimensions (d > 20). To overcome this limitation, I  developed the S<font size="2">AFE</font>O<font size="2">PT</font>-HD algorithm that identifies relevant domain regions that efficiently trade-off performance and safety, and restricts BO search to this preprocessed domain. By employing cheap (and potentially inaccurate) simulation models, offline computations allow identifying domain subspaces that are likely to yield optimal policies, thus significantly reducing domain size. When combined with S<font size="2">AFE</font>O<font size="2">PT</font>, we obtain a safe BO algorithm applicable for problems with large input dimensions. To alleviate the issues due to sparsity of the non-uniform preprocessed domain, a method to systematically generate new controller parameters with desirable properties is implemented. The efficacy of S<font size="2">AFE</font>O<font size="2">PT</font>-HD is illustrated by optimizing a 48-dimensional control policy to execute full position control of a quadrotor, while guaranteeing safety.
 
-Unseen regions and areas where obstacles were observed previously, have high uncertainty illustrated by the red squares in the right image. As more observations are
-collected, the uncertainty value is updated. Given the updated uncertainty values and a target location, a path along with corresponding velocity profile
-is computed. Lower uncertainty regions allow the duckiebots to speed, depicted by red parts of trajectories in right image.
+I am currently working on testing the S<font size="2">AFE</font>O<font size="2">PT</font>-HD pipeline on a quadrotor system.
 
-A video describing the overall project and our approach can be found <a href="https://vimeo.com/user92909741" target="blank">here</a> and
-the corresponding source code is available on <a href="https://github.com/duckietown/duckietown-uplan" target="blank">github</a>.
+
+<!---A detailed description and the source code for this project will be made public soon.-->

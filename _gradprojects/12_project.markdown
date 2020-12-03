@@ -6,8 +6,7 @@ img: /project_pics/rosenbrock.png
 ---
 
 <!---Learning-Based Control for Constrained Systems using Thompson Sampling and Scenario Optimization-->
-I recently completed my semester thesis under the supervision of Dr. Melanie Zeilinger at the
-<a href="https://idsc.ethz.ch/research-zeilinger.html" target="blank">
+This work is done under the supervision of Dr. Melanie Zeilinger at the <a href="https://idsc.ethz.ch/research-zeilinger.html" target="blank">
 Institute for Dynamic Systems and Control</a> at ETHZ. The motivation for the project comes from
 the growing complexity of systems and increasing availability of data, giving rise to development of
 data-enabled controller design methods. While there are numerous approaches to this problem, the
@@ -19,8 +18,8 @@ First, a Bayesian optimization method is illustrated using a simple Thompson sam
 efficiently balance between exploration and exploitation when learning to optimize actions.
 This method is then extended for learning-based control using model-based reinforcement learning.
 A constrained open-loop finite horizon control problem is solved to compute approximately optimal
-input sequences while reinforcement learning optimizes close-loop performance. Finally, Scenario
-Based Optimization is used to provide safety guarantees for the aforementioned model-based approaches.
+input sequences while reinforcement learning optimizes close-loop performance. Finally, using the Scenario
+framework, an uncertain convex program is solved to satisfy randomized uncertain constraints with high probability. 
 
 I recently had the opportunity to present this work at the <a href="http://mlss.tuebingen.mpg.de/2020/" target="blank">
 Machine Learning Summer School (MLSS), 2020 </a> in Tubingen.
