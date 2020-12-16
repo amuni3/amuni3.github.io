@@ -6,7 +6,7 @@ order: 1
 ---
 
 <div class="project-header-bar">
-  <h2> Graduate Projects </h2>
+  <h4> At ETH Zurich </h4>
   <br/>
 </div>
 
@@ -53,9 +53,9 @@ order: 1
 
 {% endfor %}
 
-<br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> 
+<br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
 <div class="project-header-bar">
-  <h2> Undergraduate Projects </h2>
+  <h4> At Georgia Institute of Technology </h4>
   <br/>
 </div>
 
