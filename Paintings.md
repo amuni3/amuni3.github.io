@@ -5,7 +5,7 @@ permalink: /Paintings/
 order: 2
 ---
 
-<script src="/img/embed360.js"></script>
+<!-- script src="/img/embed360.js"></script-->
 
 <div class="embed360">
   <img class="col three" src="/painting_gallery/exhibition.JPG">
