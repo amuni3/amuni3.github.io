@@ -5,7 +5,18 @@ permalink: /Paintings/
 order: 2
 ---
 
-<img class="col half right" src="/img/paint2.JPG">
+<script src="/img/embed360.js"></script>
+
+<div class="embed360">
+  <img class="col three" src="/painting_gallery/exhibition.JPG">
+</div>
+<div class="col three caption">
+In February, 2020 I received a grant from the Government of India to host a solo art exhibit.
+</div>
+
+
+<!--img class="col half right" src="/img/paint2.JPG"-->
+
 
 I have been painting since I was five. My work falls under the <a href="https://en.wikipedia.org/wiki/Na%C3%AFve_art" target="blank">"Naïve art"</a> category and draws inspiration from Indian culture and traditions. I have worked in several mediums including poster colors, water colors, oil paints and even ink and organic colors.
 
