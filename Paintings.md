@@ -5,19 +5,11 @@ permalink: /Paintings/
 order: 2
 ---
 
-<!--script src="/img/embed360.js"></script>
-
-<div class="embed360">
-  <img class="col three" src="/painting_gallery/exhibition.JPG">
-</div>
-
-<img class="col half right" src="/img/paint2.JPG"-->
-
 <div class="img_painting">
 	<img class="col three" src="/painting_gallery/exhibition.JPG" atl="Exhibition_2020">
 </div>
 <div class="col three caption">
-	<i>In February 2020, I was awarded a grant by the Government of India to host a solo art exhibit.<br/>  </i>
+	<i>In February 2020, I was awarded a grant by the Government of India to host a solo art exhibit.<br/> </i>
 </div>
 <br/>
 
