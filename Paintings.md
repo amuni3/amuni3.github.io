@@ -23,6 +23,71 @@ Below are some of my selected paintings.
 <hr/>
 
 <div class="header-bar">
+  <h3>Portrait</h3>
+</div>
+<div class="img_painting">
+	<img class="col three" src="/painting_gallery/portrait.JPG" atl="Portrait">
+</div>
+<div class="col three caption">                          
+	<i>A portrait drawn with charcoal colors.<br/>  </i>
+</div>
+
+<br/>
+<hr/>
+
+<div class="header-bar">
+  <h3>A Jodhpuri street</h3>
+</div>
+<div class="img_painting">
+	<img class="col three" src="/painting_gallery/jodhpur.JPG" atl="Jodhpur">
+</div>
+<div class="col three caption">                          
+	<i>An oil painting depicting a street from the "blue city" of India, Jodhpur.<br/>  </i>
+</div>
+
+<br/>
+<hr/>
+
+<div class="header-bar">
+  <h3>Journey through the desert</h3>
+</div>
+<div class="img_painting">
+	<img class="col three" src="/painting_gallery/desert.jpg" atl="Desert">
+</div>
+<div class="col three caption">                          
+	<i>Another painting that was exhibited at Georgia Tech. It is painted with oil colors.<br/>  </i>
+</div>
+
+<br/>
+<hr/>
+
+<div class="header-bar">
+  <h3>Panihari</h3>
+</div>
+<div class="img_painting">
+	<img class="col three" src="/painting_gallery/panihari_oil.jpg" atl="Panihari">
+</div>
+<div class="col three caption">                          
+	<i>Another knife painting in oil colors painted on 36"x60" canvas! <br/>  </i>
+</div>
+
+<br/>
+<hr/>
+
+<div class="header-bar">
+  <h3>Village Well</h3>
+</div>
+<div class="img_painting">
+	<img class="col three" src="/painting_gallery/village_well.jpg" atl="Village Well">
+</div>
+<div class="col three caption">                          
+	<i>This painting was exhibited at Georgia Tech. It is painted with chalk colors.<br/>  </i>
+</div>
+
+<br/>
+<hr/>
+
+<div class="header-bar">
   <h3>Shepherd</h3>
 </div>
 <div class="img_painting">
@@ -215,71 +280,6 @@ IE-NO- HIKARI Association, Japan, 2005.<br/>  </i>
 </div>
 <div class="col three caption">                          
 	<i>Another knife painting in oil colors. <br/>  </i>
-</div>
-
-<br/>
-<hr/>
-
-<div class="header-bar">
-  <h3>Panihari</h3>
-</div>
-<div class="img_painting">
-	<img class="col three" src="/painting_gallery/panihari_oil.jpg" atl="Panihari">
-</div>
-<div class="col three caption">                          
-	<i>Another knife painting in oil colors painted on 36"x60" canvas! <br/>  </i>
-</div>
-
-<br/>
-<hr/>
-
-<div class="header-bar">
-  <h3>Village Well</h3>
-</div>
-<div class="img_painting">
-	<img class="col three" src="/painting_gallery/village_well.jpg" atl="Village Well">
-</div>
-<div class="col three caption">                          
-	<i>This painting was exhibited at Georgia Tech. It is painted with chalk colors.<br/>  </i>
-</div>
-
-<br/>
-<hr/>
-
-<div class="header-bar">
-  <h3>Journey through the desert</h3>
-</div>
-<div class="img_painting">
-	<img class="col three" src="/painting_gallery/desert.jpg" atl="Desert">
-</div>
-<div class="col three caption">                          
-	<i>Another painting that was exhibited at Georgia Tech. It is painted with oil colors.<br/>  </i>
-</div>
-
-<br/>
-<hr/>
-
-<div class="header-bar">
-  <h3>A Jodhpuri street</h3>
-</div>
-<div class="img_painting">
-	<img class="col three" src="/painting_gallery/jodhpur.JPG" atl="Jodhpur">
-</div>
-<div class="col three caption">                          
-	<i>An oil painting depicting a street from the "blue city" of India, Jodhpur.<br/>  </i>
-</div>
-
-<br/>
-<hr/>
-
-<div class="header-bar">
-  <h3>Portrait</h3>
-</div>
-<div class="img_painting">
-	<img class="col three" src="/painting_gallery/portrait.JPG" atl="Portrait">
-</div>
-<div class="col three caption">                          
-	<i>A portrait drawn with charcoal colors.<br/>  </i>
 </div>
 
 <br/>
