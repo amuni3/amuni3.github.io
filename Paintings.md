@@ -5,18 +5,24 @@ permalink: /Paintings/
 order: 2
 ---
 
+I have been painting since I was five. My work falls under the
+<a href="https://en.wikipedia.org/wiki/Na%C3%AFve_art" target="blank">"Naïve art"</a>
+category and draws inspiration from Indian culture and traditions. I have worked in several
+mediums including poster colors, water colors, oil paints and even ink and organic colors.
+
 <div class="img_painting">
 	<img class="col three" src="/painting_gallery/exhibition.JPG" atl="Exhibition_2020">
 </div>
 <div class="col three caption">
-	<i>In February 2020, I was awarded a grant by the Government of India to host a solo art exhibit.<br/> </i>
+	<i>In February 2020, I was awarded the Lalit Kala Exhibition Grant by the Government of India to
+	 host a solo art exhibit.<br/> <br/></i>
 </div>
 <br/>
 
-I have been painting since I was five. My work falls under the <a href="https://en.wikipedia.org/wiki/Na%C3%AFve_art" target="blank">"Naïve art"</a> category and draws inspiration from Indian culture and traditions. I have worked in several mediums including poster colors, water colors, oil paints and even ink and organic colors.
-
-Over the years I have won many national and international awards and scholarships. From 2004 to 2008, I was a recipient of the Cultural Talent Search Scholarship Scheme (CTSSS) implemented by the Center for Cultural Resources and Training (CCRT), India. I was invited by the Government of Portugal
-to attend the 1<sup>st</sup> International Juvenile Art Workshop in Penela, Portugal.
+Over the years I have won many national and international awards and scholarships.
+From 2004 to 2008, I was a recipient of the Cultural Talent Search Scholarship Scheme (CTSSS)
+implemented by the Center for Cultural Resources and Training (CCRT), India. In 2007, I was invited
+by the Government of Portugal to attend the 1<sup style="line-height: 0">st</sup> International Juvenile Art Workshop in Penela, Portugal.
 
 Below are some of my selected paintings.
 <br/>
