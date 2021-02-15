@@ -19,7 +19,7 @@ mediums including poster colors, water colors, oil paints and even ink and organ
 </div>
 <br/>
 
-Over the years I have won many national and international awards and scholarships.
+I have been fortunate to win many national and international awards and scholarships.
 From 2004 to 2008, I was a recipient of the Cultural Talent Search Scholarship Scheme (CTSSS)
 implemented by the Center for Cultural Resources and Training (CCRT), India. In 2007, I was invited
 by the Government of Portugal to attend the 1<sup style="line-height: 0">st</sup> International Juvenile Art Workshop in Penela, Portugal.
