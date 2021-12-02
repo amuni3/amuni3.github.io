@@ -341,3 +341,13 @@ padding: $img_spacing;
    height:1px;
    background: #fff;
 }
+
+/*
+  Poster Format  ********************************
+*/
+.img_poster{
+    height: 100%;
+width: 100%;
+overflow: hidden;
+box-sizing:border-box;
+}
