@@ -23,6 +23,9 @@ collections:
   gradprojects:
     output: true
     permalink: /Portfolio/:path/
+  internprojects:
+    output: true
+    permalink: /Portfolio/:path/
   #blog:
   #  output: true
   #  permalink: /blog/:path/
