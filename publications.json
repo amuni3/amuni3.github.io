@@ -1,0 +1,128 @@
+{
+  "publications": [
+    {
+      "title": "Reward Redistribution for CVaR MDPs using a Bellman Operator on L-infinity",
+      "authors": [
+        "Aneri Muni",
+        "Vincent Taboga",
+        "Esther Derman",
+        "Pierre-Luc Bacon",
+        "Erick Delage"
+      ],
+      "venue": "ICML 2026",
+      "thumbnail": "images/thumbs/RR-traj.png",
+      "selected": 1,
+      "award": "Spotlight (top 2.2%)",
+      "links": {
+        "pdf": "https://arxiv.org/abs/2602.03778",
+        "code": "#"
+      }
+    },
+    {
+      "title": "What Matters when Modeling Human Behavior using Imitation Learning?",
+      "authors": [
+        "Aneri Muni",
+        "Esther Derman",
+        "Vincent Taboga",
+        "Pierre-Luc Bacon",
+        "Erick Delage"
+      ],
+      "venue": "ICML 2025 Workshop on Models of Human Feedback for AI Alignment",
+      "thumbnail": "images/thumbs/RS-IL-image.png",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "https://openreview.net/pdf?id=9t8NFc9SLh"
+      }
+    },
+    {
+      "title": "On the adaptation of recurrent neural networks for system identification",
+      "authors": [
+        "Marco Forgione",
+        "Aneri Muni",
+        "Dario Piga",
+        "Marco Gallieri"
+      ],
+      "venue": "Automatica 2023, Volume 155",
+      "thumbnail": "images/thumbs/RNN-adapt.jpg",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "https://doi.org/10.1016/j.automatica.2023.111092"
+      }
+    },
+    {
+      "title": "Designing Biological Sequences via Meta-Reinforcement Learning and Bayesian Optimization",
+      "authors": [
+        "Leo Feng",
+        "Padideh Nouri",
+        "Aneri Muni",
+        "Yoshua Bengio",
+        "Pierre-Luc Bacon"
+      ],
+      "venue": "NeurIPS 2022 Workshop on Machine Learning in Structural Biology",
+      "thumbnail": "images/thumbs/peptide-img.png",
+      "selected": 0,
+      "award": "",
+      "links": {
+        "pdf": "https://arxiv.org/abs/2209.06259"
+      }
+    },
+    {
+      "title": "Autopilot Design for a class of Miniature Autonomous Blimps",
+      "authors": [
+        "Sungjin Cho",
+        "Vivek Mishra",
+        "Qiuyang Tao",
+        "Paul Varnell",
+        "Matthew King-Smith",
+        "Aneri Muni",
+        "Weston Smallwood",
+        "Fumin Zhang"
+      ],
+      "venue": "IEEE Conference on Control Technology and Applications (CCTA) 2017",
+      "thumbnail": "images/thumbs/blimp.png",
+      "selected": 0,
+      "award": "",
+      "links": {
+        "pdf": "https://ieeexplore.ieee.org/document/8062564"
+      }
+    },
+    {
+      "title": "Robotics for Poultry House Management",
+      "authors": [
+        "Colin Usher",
+        "Wayne Daley",
+        "Benjamin Joffe",
+        "Aneri Muni"
+      ],
+      "venue": "ASABE Annual International Meeting, paper 1701103, 2017",
+      "thumbnail": "images/thumbs/gohbot.png",
+      "selected": 0,
+      "award": "",
+      "links": {
+        "pdf": "https://doi.org/10.13031/aim.201701103",
+        "video": "https://www.youtube.com/watch?v=BrABP6Brj54"
+      }
+    },
+    {
+      "title": "Control Theory — Autonomous Blimp",
+      "authors": [
+        "Qiuyang Tao",
+        "Matthew King-Smith",
+        "Aneri Muni",
+        "Vivek Mishra",
+        "Sungjin Cho",
+        "Paul Varnell",
+        "Fumin Zhang"
+      ],
+      "venue": "IEEE Control Systems Society Video Contest 2015",
+      "thumbnail": "images/thumbs/blimp2.jpg",
+      "selected": 0,
+      "award": "",
+      "links": {
+        "video": "https://youtu.be/5M-V4GOFNDA"
+      }
+    }
+  ]
+}
